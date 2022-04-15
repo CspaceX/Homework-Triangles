@@ -8,7 +8,7 @@ namespace Triangles
         {             
             while (true)
             {
-                Console.WriteLine("Height");
+                Console.WriteLine("Enter the height of triangles");
                 bool HeightParse = int.TryParse(Console.ReadLine(), out int height);
                 Console.Clear();
 
